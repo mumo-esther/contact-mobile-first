@@ -1,0 +1,103 @@
+@media (max-width: 700px) {
+  .body {
+    background: #e5e5e5;
+  }
+
+  .text > h2 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+    margin-right: auto;
+    margin-left: 90px;
+    width: 65%;
+    position: relative;
+  }
+
+  form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    height: 330px;
+    order: 1;
+    position: relative;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  form li + li {
+    margin-top: 1em;
+  }
+
+  input {
+    font: 1em 'inter', sans-serif;
+    width: 300px;
+    height: 48px;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    font: 1em 'inter', sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid green;
+    vertical-align: top;
+    height: 114px;
+  }
+
+  input:focus:valid,
+  textarea:focus:valid {
+    border-color: blue;
+  }
+
+  .button {
+    padding-left: 90px;
+  }
+
+  button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: white;
+    border: none;
+    padding: 12px;
+    background: #36b37f;
+    border-radius: 4px;
+    order: 3;
+  }
+
+  .social-media {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+    justify-content: center;
+    padding: 0.5rem;
+    height: 50px;
+    margin-top: 15px;
+  }
+
+  .my-email {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    color: #172b4d;
+  }
+}

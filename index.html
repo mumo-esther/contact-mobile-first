@@ -33,9 +33,9 @@
           <li><a href="#">About</li>
           <li><a href="#">Contact</a></li>
         </ul>
-        <label for="check" class="hambuger-btn">
+        <li for="check" class="hambuger-btn">
           <i class = "fas fa-bars"></i>
-        </label>
+        </li>
       </nav>
     </header>
     <section>
@@ -266,20 +266,18 @@ don’t hestiate to contact me.
     <div class="text">
     <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
     </div>
-   <form action="https://formspree.io/f/xpznodvr" method="post">
+   <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xpznodvr" method="post">
   <ul>
     <li>
-      <input type="text" required maxlength="30" placeholder="Full name" />
-    </li>
-    <li>
-      <input type="email" required placeholder="Email address" />
-    </li>
-    <li>
-      <textarea id="msg" required maxlength="500" placeholder="Enter your text here" ></textarea>
-    </li>
-    <li class="button">
-  <button type="submit">Get in touch</button>
-</li>
+    <input type="text" name="fname" placeholder="Full name" maxlength="30" required>
+  </li>
+  <li>
+    <input type="email" name="email" placeholder="Email address" required>
+  </li>
+  <li>
+    <textarea name="message" placeholder="Enter your text here" maxlength="500" required></textarea>
+  </li>
+  <button type="submit" name="button" >Get in touch</button>
   </ul>
 </form>
 <div class="social-media">
